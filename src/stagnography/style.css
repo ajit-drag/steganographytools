@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Apr, 2015, 10:16:16 PM
+    Author     : Ajit Singh
+*/
+@font-face{
+    -fx-font-family: "sweetly";
+    src: url("sweetly.ttf");
+}
+.link{
+    -fx-background-radius:0;
+    -fx-background-color: transparent;
+    -fx-text-fill: #548de1;
+    -fx-cursor: hand;
+}
+.link:hover{
+    -fx-text-fill: #83a7db;
+    -fx-underline: true;
+    -fx-cursor:hand; 
+}
+.link:pressed{
+    -fx-text-fill: darkblue;
+}
+.background
+{
+    -fx-background-image: url("back.jpg");
+}
+.logo{
+    -fx-background-image: url("logo.png");
+}
+.buttonDisk{
+    -fx-background-radius: 100px;
+}
+.buttonConvert{
+    -fx-text-fill: white;
+    -fx-background-color: #66ccff;
+}
+.buttonConvert:hover{
+    -fx-background-color: #bd1e49;
+    
+    -fx-border-width: 2px;
+    -fx-border-radius: 100px;
+    -fx-border-color: #bd1e49;
+    -fx-border-insets: -7;
+    -fx-border-style: dashed;
+}
+.buttonFacebook{
+    //-fx-background-color: #3a589b;
+    -fx-background-image: url("fb.png");
+    -fx-background-radius: 50px;
+}
+.buttonFacebook:hover{
+    -fx-border-color: #3a589b;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-border-insets: -7;
+    -fx-border-style: dashed;
+    
+}
+.buttonTwitter{
+    //-fx-background-color: #3a589b;
+    -fx-background-image: url("twitter.png");
+    -fx-background-radius: 50px;
+    -fx-background-position: 0;
+}
+.buttonTwitter:hover{
+    -fx-border-color: #3a589b;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-border-insets: -7;
+    -fx-border-style: dashed;
+}
+.buttonUpload{
+    -fx-background-color: white;
+    -fx-background-image:url("upload.png"); 
+}
+.buttonUpload:hover{
+    -fx-background-color: white;
+    -fx-background-image:url("upload2.png");
+}
+.buttonsUpperRight{
+    -fx-background-color: white;
+}
+.buttonClear{
+    -fx-display-caret: true;
+    -fx-background-color: white;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 26px;
+    -fx-border-color: black;
+}
+.buttonClear:hover{
+    -fx-scale-x: 1.5;
+    -fx-scale-y: 1.5;
+    -fx-background-radius: 25px;
+}
+.borderDashed{
+    -fx-border-style: dashed;
+    -fx-border-color: #989696;
+    -fx-border-width: 3px;
+}
+.textFont{
+    -fx-font-family: "sweetly";
+}
+.textButton{
+    -fx-background-color: #ff3366;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+}
+.textButton:hover{
+    -fx-border-color: #ff3366;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-border-insets: -7;
+    -fx-border-style: dashed;
+}

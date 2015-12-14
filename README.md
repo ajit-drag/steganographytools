@@ -1,2 +1,2 @@
-# steganographytools
+# Steganography Tools
 This is a user friendly application that enables user to use the concept of Steganography more easily and efficiently.The Steganography tool that is created, helps people to have communication using images containing hidden information. The tool can be used for many purpose such as Secret Conversation, Image Password etc. Technology used for making this possible was Java along with JavaFx-a library of Java for making interactive graphics and user friendly GUI.

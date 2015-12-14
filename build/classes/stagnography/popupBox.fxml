@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" opacity="0.5" prefHeight="100.0" prefWidth="150.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stagnography.PopupBoxController">
+    <stylesheets>
+        <URL value="@popupbox.css" />
+    </stylesheets>
+   <children>
+      <Text fx:id="thisText" layoutX="7.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="244.13671875" />
+      <Button layoutX="225.0" layoutY="2.0" mnemonicParsing="false" onAction="#exit" styleClass="buttonExit" text="X" />
+   </children>
+</AnchorPane>

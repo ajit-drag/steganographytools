@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="400.0" styleClass="background" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stagnography.DialogBoxController">
+    <stylesheets>
+        <URL value="@dialogbox.css" />
+    </stylesheets>
+   <children>
+      <TextArea fx:id="text" layoutX="10.0" layoutY="45.0" prefHeight="210.0" prefWidth="380.0" wrapText="true" />
+      <Button layoutX="323.0" layoutY="261.0" mnemonicParsing="false" onAction="#saveTextButtonAction" text="Save Text" />
+      <Button layoutX="365.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeStage" text="X" />
+      <Button layoutX="245.0" layoutY="261.0" mnemonicParsing="false" onAction="#clearTextButtonAction" text="Clear Text" />
+   </children>
+</AnchorPane>

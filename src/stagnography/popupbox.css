@@ -1,0 +1,15 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+-fx-opacity: 0.5;
+-fx-background-color: #ccffcc;
+}
+.buttonExit{
+    -fx-background-color:  #ccffcc;
+}
+.buttonExit:hover{
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}

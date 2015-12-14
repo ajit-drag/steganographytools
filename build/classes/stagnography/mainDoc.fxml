@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stagnography.mainDocController">
+   <children>
+      <Pane layoutX="20.0" layoutY="57.0" prefHeight="406.0" prefWidth="756.0" styleClass="borderDashed" />
+      <ImageView fx:id="imageBox" fitHeight="396.0" fitWidth="748.0" layoutX="24.0" layoutY="61.0" pickOnBounds="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@../../../../../Downloads/Images/3D-Ninja-Cartoon-Wallpaper.jpg" />
+         </image></ImageView>
+      <Button fx:id="clearImageButton" layoutX="734.0" layoutY="76.0" mnemonicParsing="false" onAction="#clearImageButtonAction" prefHeight="25.0" prefWidth="25.0" styleClass="buttonClear" text="X">
+         <font>
+            <Font size="10.0" />
+         </font></Button>
+      <Button fx:id="uploadButton" alignment="CENTER" layoutX="349.0" layoutY="212.0" mnemonicParsing="false" onAction="#uploadButtonAction" prefHeight="100.0" prefWidth="100.0" textFill="#1e0505">
+         <font>
+            <Font size="40.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttonDisk" />
+            <String fx:value="buttonUpload" />
+         </styleClass>
+      </Button>
+      <Button layoutX="657.0" layoutY="488.0" mnemonicParsing="false" onAction="#saveButtonAction" prefHeight="50.0" prefWidth="50.0" textFill="#f8f6f6">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttonDisk" />
+            <String fx:value="buttonTwitter" />
+         </styleClass>
+      </Button>
+      <Button fx:id="exitButton" layoutX="755.0" layoutY="3.0" mnemonicParsing="false" onAction="#exitButtonAction" styleClass="buttonsUpperRight" text="X">
+         <font>
+            <Font name="Segoe Script" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="723.0" layoutY="2.0" mnemonicParsing="false" onAction="#minimizeButtonAction" styleClass="buttonsUpperRight" text="_">
+         <font>
+            <Font name="Segoe Script" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="convertButton" layoutX="351.0" layoutY="418.0" mnemonicParsing="false" onAction="#convertButtonAction" prefHeight="100.0" prefWidth="100.0" text="Embed">
+         <font>
+            <Font name="Segoe Script" size="16.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttonDisk" />
+            <String fx:value="buttonConvert" />
+         </styleClass>
+      </Button>
+      <Pane prefHeight="90.0" prefWidth="241.0" styleClass="logo" />
+      <Button fx:id="textButton" layoutX="24.0" layoutY="488.0" mnemonicParsing="false" onAction="#textButtonAction" prefHeight="50.0" prefWidth="50.0" text="Text" textFill="#f8f3f3">
+         <font>
+            <Font name="Segoe Script" size="12.0" />
+         </font>
+         <styleClass>
+            <String fx:value="textButton" />
+            <String fx:value="buttonDisk" />
+         </styleClass></Button>
+      <Button layoutX="24.0" layoutY="558.0" mnemonicParsing="false" onAction="#linkButtonClicked" styleClass="link" text="To know more about Steganography. Click here...">
+         <font>
+            <Font name="Segoe Script" size="12.0" />
+         </font></Button>
+   </children>
+</Pane>
